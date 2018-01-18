@@ -13,4 +13,5 @@ if __name__ == '__main__':
     )
 
     user.login()
-    user.follow('745GeneralUsers.txt')
+    user.follow('arquivos_de_testes/745GeneralUsers.txt')
+    user.like('arquivos_de_testes/city.txt')
