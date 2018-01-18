@@ -31,8 +31,8 @@ def _scraping_profile(driver, user, _id):
     
     return all_profiles
 
-    def scraping_followers_profile(driver, user):
-        return _scraping_profile(driver, user, '17851374694183129')
-    
-    def scraping_followings_profile(driver, user):
-        return _scraping_profile(driver, user, '17874545323001329')
+def scraping_followers_profile(driver, user):
+    return _scraping_profile(driver, user, '17851374694183129')
+
+def scraping_followings_profile(driver, user):
+    return _scraping_profile(driver, user, '17874545323001329')
